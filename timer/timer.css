@@ -1,0 +1,51 @@
+.container{
+    height: 100vh;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    }
+    .logo{
+        width: 120px;
+        padding: 20px 0;
+        cursor: pointer;
+    }
+    .content{
+        justify-content: center;
+        top: 50%;
+        position: absolute;
+        transform: translateY(-50%);
+        color: #fff;
+        padding: 0 12%;
+    }
+    .content h1{
+    font-size: 64px;
+    font-weight: 600;
+    }
+    .content h1 span{
+        color: #ff3753;
+    }
+    .content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    }
+    .content button img{
+    
+    }
+    .launch-time{
+        display: flex;
+    }
+    .launch-time div{
+        flex-basis: 100px;
+    }
+    .launch-time div p{
+        font-size: 60px;
+        margin-bottom: -14px;
+    }

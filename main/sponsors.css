@@ -1,0 +1,17 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+} */
+.flex-container{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.spon-image{
+    border-radius: 50%;
+    max-width: 15ch;
+}

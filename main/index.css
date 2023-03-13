@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "ubuntu";
+    font-style: italic;
+    font-weight: 300;
+    src: local("Lato Light Italic"), local("Lato-LightItalic"), url(https://fonts.gstatic.com/s/ubuntucondensed/v8/u-4k0rCzjgs5J7oXnJcM_0kACGMtT-Dfqw.woff2) format("woff2");
+  }
+  body {
+    height: 100vh;
+    margin: 0;
+    background-color: #353535;
+    background-image: url("/hackathon/purple.jpg");
+    background-repeat: no-repeat;
+    font-family: "ubuntu", Arial, sans-serif;
+    overflow-x: hidden;
+    
+  }
+  
+  a {
+    text-decoration: none;
+    color: #9ca0b1;
+  }
+  nav{
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .wrapper  {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    background: linear-gradient(to right, #095fab 10%, #25abe8 50%, #57d75b 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .links{
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 600px;
+    margin-bottom: 2000px;
+}
+
+  .logo{
+      width: 120px;
+      padding: 20px 0;
+      cursor: pointer;
+  }
+  .content{
+      justify-content: center;
+      top: 50%;
+      position: absolute;
+      transform: translateY(-50%);
+      color: #fff;
+      padding: 0 12%;
+  }
+  .content h1{
+  font-size: 64px;
+  font-weight: 600;
+  }
+  .content h1 span{
+      color: #ff3753;
+  }
+  .content button{
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 12px 25px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  cursor: pointer;
+  }
+  .content button img{
+  
+  }
+  .launch-time{
+      display: flex;
+  }
+  .launch-time div{
+      flex-basis: 100px;
+  }
+  .launch-time div p{
+      font-size: 60px;
+      margin-bottom: -14px;
+  }
