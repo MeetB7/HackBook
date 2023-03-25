@@ -55,8 +55,11 @@
     font-size: x-large;
     margin-left: 600px;
     margin-bottom: 2000px;
+    list-style: none;
 }
-
+.links li:hover{
+  color: orange;
+}
   .logo{
       width: 120px;
       padding: 20px 0;
